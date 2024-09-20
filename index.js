@@ -1,7 +1,7 @@
     $(document).ready(function() {            
         $('#dashboard-page').hide();          
         $('#login-form').on('submit', function(e) {
-            alert("Login successfull !!");
+            alert("Login Successfull..!");
             e.preventDefault();
             $('#login-page').hide();
             $('#dashboard-page').show();
